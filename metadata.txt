@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Latitude / Longtitude Calculator
+qgisMinimumVersion=3.0
+description=Allows coversion Long-Lat between decimal degrees and DMS
+version=0.1
+author=Jiri Kalina
+email=jiri.kalina.jr@gmail.com
+
+about=Allows user to convert latitudes nad longitudes between DD (Decimal Degrees) and DMS (Degrees Minutes Seconds). Umožňuje uživateli převádět zeměpisné šířky a délky mezi DD a DMS.
+
+tracker=https://github.com/Krummhaus/qgis-longlatcalc/issues
+repository=https://github.com/Krummhaus/qgis-longlatcalc
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=qgis, python, longitude, latitude, decimal degrees, DMS
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
